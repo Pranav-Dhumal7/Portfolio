@@ -1,0 +1,46 @@
+.details-container .certificate-sub-title{
+    color: #444;
+}
+
+.certificate-article-container{
+    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.certificate-card{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    width: 100%;
+    max-width: 500px;
+    transition: transform 0.3s ease;
+}
+
+.certificate-card:hover {
+    transform: scale(1.02);
+}
+
+.certificate-img{
+    height: 300px;
+    width: 100%;
+}
+
+.certificate-info{
+    padding: 20px;
+}
+
+.certificate-info h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.certificate-info p{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #444;
+}
